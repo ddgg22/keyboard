@@ -116,10 +116,10 @@
             //                    |     |     | SPC |   | SPC |     |     |
 
             bindings = <
-&kp ESC  &trans        &kp UP           &trans                        &kp LANG4  &kp LANGUAGE_3    &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &trans
-&trans   &kp LEFT      &kp DOWN         &kp RIGHT                     &trans     &trans            &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans   &kp QUESTION  &kp EXCLAMATION  &mt DOUBLE_QUOTES APOSTROPHE  &kp RIGHT  &trans            &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &bootloader
-                                        &trans                        &trans     &kp SPACE         &kp SPACE  &trans        &trans
+&kp ESC      &trans        &kp UP           &trans                        &kp LANG4  &kp LANGUAGE_3    &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &trans
+&trans       &kp LEFT      &kp DOWN         &kp RIGHT                     &trans     &trans            &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&bootloader  &kp QUESTION  &kp EXCLAMATION  &mt DOUBLE_QUOTES APOSTROPHE  &kp RIGHT  &trans            &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &bootloader
+                                            &trans                        &trans     &kp SPACE         &kp SPACE  &trans        &trans
             >;
         };
 
@@ -135,6 +135,15 @@
 &kp LCTRL  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LESS_THAN  &kp GREATER_THAN    &kp MINUS  &kp EQUAL   &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans      &trans             &gmail           &naver         &Myt                &kp UNDER  &kp PLUS    &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                           &kp LGUI         &trans         &kp SPACE           &kp SPACE  &trans      &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
